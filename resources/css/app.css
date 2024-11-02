@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* resources/css/app.css */
+@media (max-width: 768px) {
+    .sidebar {
+        padding: 1rem;
+        /* Kurangi padding pada layar kecil */
+    }
+
+    .main-content {
+        margin-left: 0;
+        /* Atur margin kiri pada layar kecil */
+    }
+}
